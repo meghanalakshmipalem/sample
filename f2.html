@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <title> CSS ID and Class Selectors</title>
+        <style>
+            H2{
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                text-align: center;
+                color: black;
+                background-color: rgb(166, 147, 231);
+            }
+            .para2{
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                color: rgb(238, 75, 26);
+                font-style: italic;
+            }
+            body{
+                    background-color: coral;
+            }
+
+        </style>
+    </head>
+    <body>
+        <H2> Inline Sheet</H2>
+        <p id="para2">
+            An inline style may be used to apply a unique style for a single element.<br>
+
+            To use inline styles, add the style attribute to the relevant element. The style attribute can contain any CSS property.
+        </p>
+
+        <H3 align="center"> External Sheet</H3>
+        <p>
+            With an external style sheet, you can change the look of an entire website by changing just one file!<br>
+
+            Each HTML page must include a reference to the external style sheet file inside the link element, inside the head section.
+        </p>
+        <H3 align="center">Internal Sheet</H3>
+        <p>An internal style sheet may be used if one single HTML page has a unique style.<br>
+
+            The internal style is defined inside the style  element, inside the head section.
+        </p>
+    </body>
+</html>
